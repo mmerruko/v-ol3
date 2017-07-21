@@ -1,0 +1,13 @@
+Bundle-Name: ${project.name}
+Bundle-Version: ${project.version}
+Bundle-SymbolicName: ${project.groupId}.${project.artifactId}
+Export-Package: \
+	org.vaadin.addon.vol3*
+Vaadin-Widgetsets: ${vaadin.widgetset}
+Vaadin-Package-Version: ${vaadin.package.version}
+Implementation-Vendor-Id: ${vendor.id}
+Import-Package: \
+	!com.vaadin.client*,\
+	!com.google*,\
+	!org.vaadin.gwtol3*,\
+	*

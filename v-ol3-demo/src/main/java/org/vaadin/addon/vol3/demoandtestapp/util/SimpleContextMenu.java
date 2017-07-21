@@ -1,4 +1,4 @@
-package org.vaadin.addon.vol3.util;
+package org.vaadin.addon.vol3.demoandtestapp.util;
 
 import com.vaadin.server.Resource;
 import org.vaadin.addon.vol3.OLMap;

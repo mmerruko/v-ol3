@@ -10,11 +10,11 @@ import org.vaadin.addon.vol3.OLViewOptions;
 import org.vaadin.addon.vol3.client.OLCoordinate;
 import org.vaadin.addon.vol3.client.OLExtent;
 import org.vaadin.addon.vol3.client.Projections;
+import org.vaadin.addon.vol3.demoandtestapp.util.SimpleContextMenu;
 import org.vaadin.addon.vol3.layer.OLLayer;
 import org.vaadin.addon.vol3.layer.OLTileLayer;
 import org.vaadin.addon.vol3.source.OLOSMSource;
 import org.vaadin.addon.vol3.source.OLSource;
-import org.vaadin.addon.vol3.util.SimpleContextMenu;
 
 import java.util.logging.Logger;
 

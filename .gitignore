@@ -1,4 +1,14 @@
 .idea
 ol3-wrapper.iml
 *.iml
-target
+
+*/target/*
+**.class
+
+.project
+.classpath
+.settings
+
+*/.project
+*/.classpath
+*/.settings
