@@ -41,18 +41,10 @@ public class MapWidget extends Widget {
         map.setTarget(getElement());
     }
 
-    private void detachMapFromWidget(){
+    public void detachMapFromWidget(){
         getElement().setPropertyObject("map", null);
         map.setTarget(null);
         map=null;
-    }
-
-    @Override
-    protected void onUnload() {
-        super.onUnload();
-        if(map!=null){
-            detachMapFromWidget();
-        }
     }
 
     public Map getMap(){
